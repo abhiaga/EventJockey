@@ -30,35 +30,42 @@ public class MyRecyclerViewAdapter extends RecyclerView
         TextView label;
         TextView dateTime;
         CardView card;
+        int positon;
 
         public DataObjectHolder(View itemView) {
             super(itemView);
             label = (TextView) itemView.findViewById(R.id.textView);
+            System.out.println(R.id.textView);
             dateTime = (TextView) itemView.findViewById(R.id.textView2);
             card=(CardView)itemView.findViewById(R.id.card_view) ;
+
             Log.i(LOG_TAG, "Adding Listener");
            // card.setBackgroundResource(R.drawable.dj);
 
 
             switch(count){
                 case 0:{
+                    //System.out.println("0");
                     card.setBackgroundResource(R.drawable.dj);
                     count++;
                     break;
                 }
                 case 1:{
+                    //System.out.println("1");
                     card.setBackgroundResource(R.drawable.restaurant);
                     count++;
                     break;
 
                 }
                 case 2:{
+                    //System.out.println("2");
                     card.setBackgroundResource(R.drawable.squad);
                     count++;
                     break;
 
                 }
                 case 3:{
+                    //System.out.println("3");
                     count=0;
                     card.setBackgroundResource(R.drawable.random);
                     break;
