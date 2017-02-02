@@ -18,7 +18,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="@android:color/holo_purple"
             app:popupTheme="@style/PopupOverlay"
-            app:title="Event Selecter" />
+            app:title="Restaurant Selector" />
 
     </android.support.design.widget.AppBarLayout>
 
