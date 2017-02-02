@@ -50,7 +50,8 @@ public class FirstIndex extends AppCompatActivity {
                     startActivity(intent);
                 }
                 else if(position==2){
-                    //TODO
+                    Intent intent = new Intent(FirstIndex.this,RealEvent.class);
+                    startActivity(intent);
                 }
                 else if(position==3){
                     //TODO
