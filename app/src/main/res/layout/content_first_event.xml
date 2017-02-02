@@ -14,7 +14,6 @@
     tools:showIn="@layout/activity_first_event">
 
     <Button
-        android:text="Button"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_alignParentBottom="true"
@@ -32,32 +31,49 @@
         android:layout_toEndOf="@+id/autoCompleteTextView"
         style="@style/Widget.AppCompat.CompoundButton.CheckBox" />
 
-    <AutoCompleteTextView
-        android:text="Add any location"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="47dp"
-        android:id="@+id/autoCompleteTextView"
-        android:visibility="visible"
-        android:layout_below="@+id/checkBox3"
-        android:layout_centerHorizontal="true" />
-
     <TextView
         android:text="Where would you like to go today?"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView5"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="21dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
+
+    <AutoCompleteTextView
+        android:text="Add any location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/autoCompleteTextView"
+        android:visibility="visible"
+        android:layout_below="@+id/checkBox3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Radius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autoCompleteTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp"
+        android:id="@+id/textView6"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <fragment
         class="com.google.android.gms.maps.MapFragment"
         android:layout_width="270dp"
-        android:layout_height="200dp"
-        android:layout_marginBottom="20dp"
+        android:layout_height="170dp"
         android:layout_above="@+id/button2"
         android:layout_centerHorizontal="true" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/fragment"
+        android:layout_marginTop="36dp"
+        android:id="@+id/seekBar2" />
 
 </RelativeLayout>

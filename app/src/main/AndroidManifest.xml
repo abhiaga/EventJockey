@@ -38,6 +38,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.abhacharya.eventjockey.FirstIndex" />
         </activity>
+        <activity
+            android:name=".RealEvent"
+            android:label="@string/title_activity_real_event"
+            android:parentActivityName=".FirstIndex"
+            android:theme="@style/NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.abhacharya.eventjockey.FirstIndex" />
+        </activity>
     </application>
 
 </manifest>

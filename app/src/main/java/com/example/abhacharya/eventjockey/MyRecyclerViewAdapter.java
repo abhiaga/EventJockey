@@ -60,7 +60,7 @@ public class MyRecyclerViewAdapter extends RecyclerView
                 }
                 case 3:{
                     card.setBackgroundResource(R.drawable.random);
-                    count++;
+                    count=0;
                     break;
 
                 }

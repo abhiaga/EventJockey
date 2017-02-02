@@ -33,7 +33,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <CheckBox
-        android:text="CheckBox"
+        android:text="Tell Friends"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/checkBox"
@@ -42,14 +42,14 @@
         android:id="@+id/checkBox2" />
 
     <CheckBox
-        android:text="CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:id="@+id/checkBox"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView4"
-        android:layout_marginBottom="101dp" />
+        android:layout_marginBottom="101dp"
+        android:text="Ride There" />
 
     <RatingBar
         android:layout_width="wrap_content"
@@ -65,11 +65,10 @@
         android:id="@+id/textView4"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:layout_above="@+id/ratingBar"
-        android:layout_alignStart="@+id/textView3"
-        android:layout_marginBottom="15dp" />
+        android:layout_marginBottom="15dp"
+        android:layout_alignStart="@+id/textView3" />
 
     <Button
-        android:text="Button"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_alignParentBottom="true"

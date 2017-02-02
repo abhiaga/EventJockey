@@ -46,7 +46,8 @@ public class FirstIndex extends AppCompatActivity {
                 }
 
                 else if(position==0){
-                    //TODO
+                    Intent intent = new Intent(FirstIndex.this,RealEvent.class);
+                    startActivity(intent);
                 }
                 else if(position==2){
                     //TODO
