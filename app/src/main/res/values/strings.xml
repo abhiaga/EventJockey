@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">EventJockey</string>
+    <string name="title_activity_first_index">FirstIndex</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="title_activity_first_event">FirstEventActivity</string>
+</resources>
