@@ -3,6 +3,19 @@
     <string name="title_activity_first_index">FirstIndex</string>
     <string name="title_activity_event">EventActivity</string>
     <string name="title_activity_first_event">FirstEventActivity</string>
-
+    <string name="title_autocomplete">Auto</string>
     <string name="title_activity_real_event">RealEvent</string>
+       <string name="place_details">
+    <![CDATA[
+        <b>%1$s</b>
+        <br/>
+        <i>Place Id: %2$s</i>
+        <br/>
+        Address: %3$s
+        <br/>
+        Phone: %4$s
+        <br/>
+        Website: %5$s
+    ]]>
+    </string>
 </resources>
