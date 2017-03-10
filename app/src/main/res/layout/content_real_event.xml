@@ -22,17 +22,6 @@
         android:id="@+id/button3"
         android:background="@drawable/next" />
 
-    <CheckBox
-        android:text="Skip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/checkBox4"
-        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
-        android:layout_alignBaseline="@+id/textView7"
-        android:layout_alignBottom="@+id/textView7"
-        android:layout_toEndOf="@+id/textView7"
-        android:layout_marginStart="18dp" />
-
     <TextView
         android:text="Where would you like to go today?"
         android:layout_width="230dp"
@@ -42,16 +31,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="38dp" />
-
-    <AutoCompleteTextView
-        android:hint="                Add any location"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:id="@+id/autoCompleteTextView2"
-        android:visibility="visible"
-        android:layout_marginTop="69dp"
-        android:layout_below="@+id/textView7"
-        android:layout_centerHorizontal="true" />
 
     <TextView
         android:text="Radius"
@@ -70,10 +49,22 @@
         android:layout_marginBottom="79dp"
         android:layout_above="@+id/button3"
         android:layout_alignParentStart="true" />
+
     <fragment
         android:id="@+id/place_autocomplete_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
-        />
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:elevation="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
