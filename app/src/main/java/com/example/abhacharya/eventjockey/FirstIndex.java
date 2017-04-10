@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 
 import java.util.ArrayList;
@@ -17,6 +16,9 @@ public class FirstIndex extends AppCompatActivity {
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
     private static String LOG_TAG = "CardViewActivity";
+    public static boolean placeskip = false;
+    public static boolean ratingskip = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
